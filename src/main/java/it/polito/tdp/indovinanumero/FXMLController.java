@@ -54,7 +54,7 @@ public class FXMLController {
     	//gestione dell'interfaccia
     	layoutTentativo.setDisable(false);
     	txtRisultato.clear();
-    	txtRimasti.setText(Integer.toString(TMAX));
+    	txtRimasti.setText(Integer.toString(TMAX)+"tentativi rimasti");
 
     }
 
